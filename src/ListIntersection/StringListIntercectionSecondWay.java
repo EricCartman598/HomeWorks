@@ -10,8 +10,8 @@ public class StringListIntercectionSecondWay implements ListService {
     public List<String> findIntersection(List<String> firstList, List<String> secondList) {
         List<String> intersection = new ArrayList<>();
         Set<String> set = new HashSet<>(firstList);
-        for(String string : secondList) {
-            if(!set.add(string))
+        for (String string : secondList) {
+            if (!set.add(string))
                 intersection.add(string);
         }
 

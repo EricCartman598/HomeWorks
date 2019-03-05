@@ -10,6 +10,7 @@ public class Main {
         List<String> firstList = new ArrayList<>(Arrays.asList("A", "B", "C", "D", "E"));
         List<String> secondList = new ArrayList<>(Arrays.asList("1", "T", "D", "A", "r"));
 
+        //ListService listService = new StringListIntersectionFirstWay();
         ListService listService = new StringListIntercectionSecondWay();
         List<String> intersection = listService.findIntersection(firstList, secondList);
 
